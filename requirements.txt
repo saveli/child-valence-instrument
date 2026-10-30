@@ -1,0 +1,19 @@
+# Feature extraction, training, inference. Python 3.12/3.13.
+# Pins = versions that produced the paper's numbers (ridge/features side).
+numpy>=2.2
+pandas>=2.2
+scipy>=1.14
+scikit-learn==1.8.0      # RidgeCV/StandardScaler as in the paper
+scikit-misc==0.5.2       # loess smoother of the window features
+mediapipe==0.10.35       # pose + blendshapes; models fetched at run time
+opencv-python-headless>=4.10
+tqdm
+requests                 # DISCOVER job submission
+hcai-discover-utils>=1.0.10   # reads DISCOVER .stream/.annotation files
+# Only to read EmotiEffLib's shipped classifier rows from its weights file
+# (the weights are downloaded by the package, never redistributed here):
+torch>=2.4
+timm>=1.0.15
+emotiefflib==1.1.1
+# The face stage runs on a DISCOVER server with the `blazeface` (>=1.1.1) and
+# `emotiefflib` (1.0.x) modules installed; that server has its own environment.

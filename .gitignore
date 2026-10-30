@@ -1,0 +1,7 @@
+_private_do_not_publish/
+models/mediapipe/
+work/
+*.npz
+*.npy
+__pycache__/
+PLAN.md

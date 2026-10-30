@@ -1,0 +1,22 @@
+Model licence for models/valence_head.json
+
+Copyright (c) 2026 The authors
+
+The fitted ridge head (feature names, standardization parameters,
+coefficients, intercept) may be used, copied and modified for non-commercial
+scientific research only, under these conditions:
+
+1. No individual decisions. Outputs must not be used to assess, grade,
+   select, diagnose, discipline or otherwise decide about individual persons.
+   The validation supports aggregate, study-level research use only.
+2. No deployment in education or work settings. The head must not be put
+   into service or used for emotion recognition in educational institutions
+   or workplaces, except within an ethically approved research study.
+3. No surveillance, no identification. No use for monitoring persons, or
+   combined with identity recognition.
+4. Upstream terms survive. The head is fitted on outputs of EmotiEffLib
+   (weights trained on AffectNet, research-only terms) and MediaPipe.
+   Users must hold rights to use those models for their purpose.
+5. Attribution. Cite the paper (see README) when using the head.
+
+THE PARAMETERS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
