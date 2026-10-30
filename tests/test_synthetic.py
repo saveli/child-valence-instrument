@@ -2,7 +2,7 @@
 
 Checks that the feature code runs end to end, produces 117 deployed features,
 and that train / evaluate / nested selection / predict run. Says nothing about
-correctness against the paper; that check is in the private export script.
+correctness against the paper; that check was run separately against the paper's features.
 
     python -m pytest tests/   or   python tests/test_synthetic.py
 """
