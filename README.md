@@ -1,10 +1,10 @@
 # Clip-level valence from frozen face and body features
 
-Code for the paper *<TITLE — added after review>* (FG 2027, under review).
+Code for the paper *Validating Child Facial Valence in Classroom Video: Temporal
+Pooling and Interpretable Features* (FG 2027, under review).
 
-> **Status: draft for review.** The code is complete. The fitted head
-> (`models/valence_head.json`) is not included yet; see
-> [Model availability](#model-availability).
+The fitted head is included (`models/valence_head.json`); see
+[Model availability](#model-availability).
 
 The instrument estimates a 1–5 valence rating for short video clips of a
 reaction (for example, from the moment feedback appears on screen). It uses
